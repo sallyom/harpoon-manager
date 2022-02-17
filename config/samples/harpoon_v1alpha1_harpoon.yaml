@@ -1,0 +1,6 @@
+apiVersion: harpoon.containers/v1alpha1
+kind: Harpoon
+metadata:
+  name: harpoon-sample
+spec:
+  # TODO(user): Add fields here

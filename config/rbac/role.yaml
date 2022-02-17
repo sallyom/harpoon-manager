@@ -1,0 +1,33 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - harpoon.containers
+  resources:
+  - harpoons
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - harpoon.containers
+  resources:
+  - harpoons/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - harpoon.containers
+  resources:
+  - harpoons/status
+  verbs:
+  - get
+  - patch
+  - update

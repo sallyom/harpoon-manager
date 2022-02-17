@@ -1,0 +1,16 @@
+domain: containers
+layout:
+- go.kubebuilder.io/v3
+projectName: harpoon
+repo: github.com/containers/harpoon
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: containers
+  group: harpoon
+  kind: Harpoon
+  path: github.com/containers/harpoon/api/v1alpha1
+  version: v1alpha1
+version: "3"

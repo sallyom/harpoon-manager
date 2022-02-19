@@ -20,6 +20,9 @@ testbin/*
 vendor/**/zz_generated.*
 vendor
 harpoon
+main
+patch-claims
+.kcp
 
 # editor and IDE paraphernalia
 .idea

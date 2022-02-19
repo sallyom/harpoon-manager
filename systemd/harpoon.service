@@ -1,0 +1,10 @@
+[Unit]
+Description=Harpoon
+
+[Service]
+WorkingDirectory=%h
+ExecStart=/usr/local/bin/harpoon start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

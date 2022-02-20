@@ -19,7 +19,7 @@ testbin/*
 
 vendor/**/zz_generated.*
 vendor
-harpoon
+./harpoon
 main
 patch-claims
 .kcp
